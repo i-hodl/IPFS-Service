@@ -1,0 +1,63 @@
+# 🚀✨ Magical IPFS Uploader for macOS
+
+Unleash the magic of decentralized file sharing with this little tool! Right-click, upload, and sprinkle some stardust on your IPFS workflow. From sharing files to hosting cosmic websites, this script makes it all as easy as a wave of a wizard's wand!
+
+## 🧙‍♂️ Introduction
+
+This enchanted script allows you to upload files and folders to IPFS directly from your macOS Finder. Pin the content, copy the IPFS hash to your clipboard, and embark on a decentralized adventure!
+
+## 📜 Requirements
+- macOS, the land of your digital realm
+- IPFS, the gateway to the decentralized universe
+
+## ⚙️ Configuration
+
+Find the IP address and port of your IPFS API. If you're the local wizard, use `127.0.0.1` and `5001`. If IPFS resides on a mystical device, discover its IP on your network.
+
+## 🎩 Usage
+
+1. **Craft the Spell (Create the Script):**
+   - Conjure the script into a `.sh` file, like `ipfs_upload.sh`.
+2. **Whisper to the IPFS Spirits (Set API Address and Port):**
+   - Inscribe `YOUR_IPFS_API_ADDRESS` and `YOUR_IPFS_API_PORT` with the correct runes.
+3. **Empower the Scroll (Make the Script Executable):**
+   - Invoke `chmod +x /path/to/ipfs_upload.sh` in your Terminal.
+4. **Summon an Automator Familiar:**
+   - Create a new service in Automator.
+   - Command it to receive "files or folders" in "Finder."
+   - Add a "Run Shell Script" action with "/bin/bash," and paste the spell.
+   - Bind the service.
+5. **Cast the Upload Spell:**
+   - Right-click a folder or file.
+   - Select "Services" and choose your service.
+   - The IPFS hash is now in your clipboard, ready for the IPFS Desktop or Web UI.
+
+## 🧪 Troubleshooting
+
+Should you face the unknown, consult the ancient scrolls (`ipfs_log.csv`) in your home directory.
+
+## 📜 License
+
+This magical script is bestowed upon you under the MIT License.
+
+### 🌟 Use Cases
+
+#### 1️⃣ Share Your Treasures (Files):
+Share writings, maps, or grandma's secret potion recipes!
+
+#### 2️⃣ Host a Magical Portal (Website):
+Include:
+- `index.html`: The gateway
+- `favicon.ico`: The portal's sigil
+- Other magical assets
+
+Right-click, get the IPFS hash, and share your portal with anyone! 🧙‍♂️✨
+
+#### 3️⃣ Share Mystical Media:
+Pictures, videos, cat GIFs! The cosmic canvas is yours! 🐱🌌
+
+### 🌠 Conclusion
+
+With a pinch of magic and a burst of joy, your IPFS journey is now a thrilling ride across the decentralized cosmos! Right-click away, and may your files voyage safely! 🚀✨
+
+Happy IPFS-ing! 🌠 Reach out to me on twitter with any questions, @ih0dl
